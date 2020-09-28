@@ -1,11 +1,27 @@
 /* Give your page a fun background color */
-
+  body {
+    background-color: #80bfff;
+  }
 /* Make the header and footer a different color from the background */
-
+  header, footer {
+    background-color: #00994d;
+  }
 /* Align the h1 containing your name in the center of the header*/
-
+  #myName {
+    margin: auto;
+    width: 50%;
+  }
 /* Make your p tag a different color and italic */
-
+  #spicyQuote {
+    text-color: brown;
+    font-style: italic;
+  }
 /* Put a border around your image */
-
+  #itMe {
+    border-radius: 15px;
+    border-style: solid;
+  }
 /* Change the font-family of your list */
+  #funList {
+    font-family: fantasy;
+  }

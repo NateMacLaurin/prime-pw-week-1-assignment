@@ -5,19 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Change the <title> from "Page Title" to "Hello World" -->
     <title>Hello World</title>
+
+    <script src="helloWorld.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
     <!-- Create a header with an <h1> containing your name -->
-    <h1>Nate MacLaurin</h1>
+    <header>
+      <h1 id="myName">Nate MacLaurin</h1>
+    </header>
     <!-- Include an image -->
-    <img src="images/Me.jpeg" alt="Me Kayaking">
+    <img src="images/Me.jpg" alt="Me Kayaking" id="itMe">
     <!-- Create an unordered list with 3 list items of fun facts about you -->
-
+    <ul id="funList">
+      <li>I love kayaking. My favorite place to kayak is Lake Superior!</li>
+      <li>I've traveled to 15 countries! The most memorable place I've travelled is Prague.</li>
+      <li>I've worked on 7 Activision video games.</li>
+    </ul>
     <!-- Create a footer -->
-
+    <footer>
     <!-- Inside your footer, put a <p> with your favorite quote -->
+    <p id="spicyQuote">
+        "A purpose of human life, no matter who is controlling it, is to love whoever is around to be loved."<br>
+        -Kurt vonnegut
+    </p>
+    </footer>
 </body>
 </html>
